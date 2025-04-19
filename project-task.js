@@ -33,25 +33,30 @@ This activity reinforces:
 // ============================================
 
 // Script 1 - Greeting multiple users
-console.log("Welcome, Alice!");
-console.log("Welcome, Bob!");
-console.log("Welcome, Charlie!");
+// console.log("Welcome, Alice!");
+// console.log("Welcome, Bob!");
+// console.log("Welcome, Charlie!");
+
 
 // Script 2 - Sum calculation
-let num1 = 5, num2 = 10;
-let sum = num1 + num2;
-console.log("The sum of 5 and 10 is " + sum);
+// let num1 = 5, num2 = 10;
+// let sum = num1 + num2;
+// console.log("The sum of 5 and 10 is " + sum);
 
 // Script 3 - Product calculation
-let product = num1 * num2;
-console.log("The product of 5 and 10 is " + product);
+// let product = num1 * num2;
+// console.log("The product of 5 and 10 is " + product);
 
 // Script 4 - Print names from a list
-let names = ["Alice", "Bob", "Charlie"];
-console.log("Names in the list:");
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i]);
-}
+// let names = ["Alice", "Bob", "Charlie"];
+// console.log("Names in the list:");
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i]);
+// }
+
+
+
+
 
 /*
 ===========================================
@@ -72,3 +77,35 @@ for (let i = 0; i < names.length; i++) {
 */
 
 // ✅ Your refactored code goes below this line!
+
+//Script 1
+
+function greeting (name) {
+   console.log("Welcome, " + name + "!")
+};
+
+greeting("Alice");
+greeting("Bob");
+greeting("Charlie");
+
+//Script 2
+
+function sumCalculation(num1, num2){
+   console.log("The sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
+}
+
+sumCalculation(5, 10);
+
+//Script 3
+
+// Script 3 - Product calculation
+// let product = num1 * num2;
+// console.log("The product of 5 and 10 is " + product);
+
+function productCalculation(num3,num4){
+   console.log("The product of " + num3 + " and " + num4 + " is " + (num3 * num4))
+};
+
+productCalculation(5,10);
+
+//Script 4
